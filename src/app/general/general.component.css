@@ -1,0 +1,13 @@
+.container{
+    padding-top: 100px;
+    padding-bottom: 200px;
+    padding-left: 100px;
+    color: white;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+html, body{
+    background-color: black;
+}

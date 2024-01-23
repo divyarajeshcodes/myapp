@@ -1,19 +1,46 @@
-body{
-    margin: 0;
-    font-family: system-ui;
-    background-color: black;
-}
-.hero {
-    color: white;
-    margin-left: 500px;
-    padding-top: 200px;
-    padding-bottom: 200px;
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background: black;
+  font-family: 'Trebuchet MS', sans-serif;
 }
 
-.container{
-    max-width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
+body {
+  min-height: 90vh;
+  padding-top: 200px;
+  text-align: center;
 }
+.container{
+    display: inline-block;
+  }
+  .typed-out{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    animation: typing 1s steps(20, end) forwards, blinking .8s infinite;
+    font-size: 1.6rem;
+    width: 0;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  @keyframes blinking {
+    from { border-color: transparent }
+    to { border-color: orange; }
+  }
+
+  .button {
+    margin-left:20px ;
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+  }
