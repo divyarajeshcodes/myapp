@@ -19,11 +19,4 @@ import { isPlatformBrowser } from '@angular/common';import { Router } from '@ang
 
 export class GeneralComponent {
 
-  // constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
-
-  // ngOnInit() {
-  //   if (isPlatformBrowser(this.platformId)) {
-  //     document.body.style.backgroundColor = 'black';
-  //   }
-  // }
 }
